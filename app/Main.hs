@@ -9,7 +9,7 @@ import Data.Monoid ((<>))
 
 main = do
   putStrLn "Starting Server..."
-  scotty 3000 $ do
+  scotty 6000 $ do
     get "/hello" $ do
       text "Hello"
 
